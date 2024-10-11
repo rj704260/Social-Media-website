@@ -23,12 +23,20 @@
                 <img src="images/search.png">
                 <input type="text" placeholder="search">
             </div>
-            <div class="nav-user-icon online" >
+            <div class="nav-user-icon online" onclick="settingMenuToggle()" >
                 <img src="images/profile-pic.png">
             </div>
         </div>
+
  <!-------settin menu------->
+
         <div class="setting-menu">
+            <div id="dark-btn" class="dark-btn-on">
+                <span></span>
+            </div>
+
+
+
             <div class="setting-menu-inner">
                 <div class="user-profile">
                     <img src="images/profile-pic.png" alt="">
@@ -37,7 +45,6 @@
                         <a href="#">See your profile</a>
                     </div>
                 </div>
-
                 <hr>
                     <div class="user-profile">
                         <img src="images/feedback.png" alt="">
@@ -72,6 +79,7 @@
     </nav>
 
   <!-------left-sidebar------->
+
     <div class="container">
      
         <div class="left-sidebar">
@@ -83,19 +91,19 @@
                 <a href="#"><img src="images/watch.png" > Watch</a>
                 <a href="">See more</a>
             </div>
+
            <div class="shortcut-links">
             <p>Your Shortcuts</p>
             <a href="#"><img src="images/shortcut-1.png" >Web Developers</a>
             <a href="#"><img src="images/shortcut-2.png" >Web Design course</a>
             <a href="#"><img src="images/shortcut-3.png" >Full stack</a>
             <a href="#"><img src="images/shortcut-4.png" >Website Expert</a>
-          
            </div>
 
-
-
         </div>
+
           <!-------main-content------->
+          
         <div class="main-content">
             <div class="story-gallery">
                 <div class="story story1">
@@ -390,6 +398,8 @@
     <div class="footer">
         <p>copyright 2024-Funny content</p>
     </div>
+
+    <script src="index.js"></script>
 
 
 </body>
